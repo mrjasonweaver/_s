@@ -14,19 +14,19 @@ get_header();
 
         <div class="product-grid">
             <div>
-                <img src="<?php echo get_template_directory_uri() . '/yum.png' ?>" />
+                <img src="<?php echo get_template_directory_uri() . '/yum.png' ?>" alt="Product Snacks Image" />
                 <div class="price">10</div>
             </div>
             <div>
-                <img src="<?php echo get_template_directory_uri() . '/yum.png' ?>" />
+                <img src="<?php echo get_template_directory_uri() . '/yum.png' ?>" alt="Product Snacks Image" />
                 <div class="price">20</div>
             </div>
             <div>
-                <img src="<?php echo get_template_directory_uri() . '/yum.png' ?>" />
+                <img src="<?php echo get_template_directory_uri() . '/yum.png' ?>" alt="Product Snacks Image" />
                 <div class="price">30</div>
             </div>
             <div>
-                <img src="<?php echo get_template_directory_uri() . '/yum.png' ?>" />
+                <img src="<?php echo get_template_directory_uri() . '/yum.png' ?>" alt="Product Snacks Image" />
                 <div class="price">40</div>
             </div>
         </div>
@@ -34,4 +34,5 @@ get_header();
 	</main><!-- #main -->
 
 <?php
+
 get_footer();
